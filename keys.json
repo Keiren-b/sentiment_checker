@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sentiment-checker-354214",
+  "private_key_id": "5e3120cc2e90dc022745080998848cecc649e937",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDe9hYJb0LtHHXb\nZhlwFFqbQeJnZpsKzxIX46GzlM06Z8cnhkAxQc7eodF5c50rvkrWMibzIGtCexo5\n/ZrCxg7kZHE/x9Hv78GrY9GSDikqfFgCtKeqA4QJwrjOwfKwF4WBXaFyNUYjg/Yf\nUG0nFM6xv+aSO7/ZE9fyTTgRCIa2KDGCuNPieAiTN7B2cmyCzQ2o+xfaz1rLBZV1\nWo4o7kjNx9aMuSJTauyOsD4w4sII0HNX7Cz8sP9MC//XHYPXFvXbTZYN5lobNd9m\n/Fa0pF855dCfMuidiryJv8byHtOEofDCtShnYe0PdEt6NjAI7rBS62eBoIqeqmZ9\nC2+Vopt7AgMBAAECggEADZMnEVOnBqplGe1pSWkmgRhtpppZKzsjS2AOdXwZqLTZ\nK8oL436HEAgDKdAFDDztmoVQLh0AWs+wRO1GEcDJoankjpu7Ek7jLZe0vUiZGgnw\nY9hy8tzRml8y2FJ3qmABlA2gKZoebJrOuTuw1vXN2zBSDf+O9TJfmKmPQH49PB7b\nkTxuoAuVfHqgFd/06FGbUexqrUWhSfhnesZGOwhsMPCVTeHyqUFjSYz69OGHbrEN\nGH6KP+JM2/wzjs+l/xzl9F+Wkoz8gHahREKhAGCGCbTexiXVfr/qe86DrAjSiuQ9\nd+CU7IU7lFo0M37826y6T6D7rc4ySAOXfkON+81o0QKBgQD6QaJk4mnjintUsjaX\n/IMcX7j7ksOwQ0wik/9kKi+HsKIDa3NPKhOOkE7SsjW4Ge3adGcqMpXlHn34nvXk\ntTjEWe6BKit+4drlmoRHt2z4n2GrfFxegshegEHh03tDvMNNQz2ZJrIPqQEw/v3V\nUUEq7uGMOwTTDd3S5rXIiycI8QKBgQDkFBS+CIV3HrEjLe5MgNLmUDGHq1pMVxdW\nCmaYMApfCUX5NbOV0ExD3+5lNKDOrhY/RKgGfn4oKB5vDBCv1t0Wcgj0DaR7un8U\n8ciMi5+hZmpSpOZzvX2FljNS3niJ+K+vKAnJrCQfd2wrxQr43dXgjrH5CYRIgXv4\n+fUvqc3LKwKBgA1J3u2seCL0/4eHzw5TAkNHcfMp3+pEKI7NfQo8kzmJT5EO65iQ\ni2lOkGDvxZp5BgBLng7HkN4RuG6zQita1CDZBakmLBkYtR7sDYohW0/4Zp9Mgzsh\nhrI97UGokSsPou8/Ws3/GAVs2/tWDvR81BELjj58A82RNu40AgMcIH6BAoGAEE3z\nMaaQS/SwuxAUgfmPmhFPiSBRwzVSoL77mJOOmj6idu9E2Efcu9ltRGTfvgap5nn0\n/Qnb4OkFS/Dz3G4ivfEG/NNg18t8PDYQnSN6FOKqZSAOrWV1bLBRGPJ4cXyKqp3V\nHUqmBm3WGMbsQuAw4u2wgVoRz9EZ2LGdunuMD6MCgYEAoe/3f5Er4H2wtmsfhAbd\nNpM20Xa8/m5DxuSq4fh2UVNjO97e/5GgTLtZ+qB8W1nIkVGUlaW8SOjkRWyYZg01\nokBy/woyeIKdRs8iFak3lejx7FoLYv5UC/tYda6IdUGt9xCI9h8Ej3Gdg99huDdt\neVTvYQbpCx5hV8hs3h2LzYQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "podstocks@sentiment-checker-354214.iam.gserviceaccount.com",
+  "client_id": "101464559019348761532",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/podstocks%40sentiment-checker-354214.iam.gserviceaccount.com"
+}
