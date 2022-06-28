@@ -45,12 +45,11 @@ service = build('sheets', 'v4', credentials=creds)
 
 
 def read(cell):
-
+    
       sheet = service.spreadsheets()
-      result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,range='Monthly 5 Year!'+cell).execute()
-      valuesArray1 = result.get('values', [])
-      valuesArray2 = valuesArray1[0]
-      values = valuesArray2[0]
+      result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,range='Monthly 5 Year!'+cell, majorDimension='COLUMNS').execute()
+      values = result.get('values', [])[0]
+      print(values)  
       if values == '#N/A':
               return 'ERROR' 
       else:
@@ -89,7 +88,6 @@ def sentiment():
 
 
 sentiment()
-
 
 
         
