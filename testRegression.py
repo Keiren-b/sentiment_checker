@@ -87,20 +87,21 @@ def findBottom():
         return len(values)
 
 
-# def reg(days):
-#         bottom = findBottom()
-#         xAxis = []
-#         yAxis = []
-#         for x in range(1,(days+1)):
-#                 xAxis.append(x)
-#                 # yAxis.append
-#                 read('S'(bottom-x))
-#                 print(xAxis)
-#                 # print(yAxis)
+def reg(days):
+        bottom = findBottom()
+        xAxis = []
+        yAxis = []
+        for x in range(1,(days+1)):
+                xAxis.append(x)
+                yAxis.append(read('S'+str(bottom-x)))
+                # print(xAxis)
+                # print(yAxis)       
+        slope, intercept, r_value, p_value, std_err = linregress(xAxis, yAxis)
+        return(slope)
 
-# reg(5)
+def findSentiment:
 
-read('S5')
+# read('S5')
                        
 
 
