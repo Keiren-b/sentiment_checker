@@ -97,9 +97,31 @@ def reg(days):
                 # print(xAxis)
                 # print(yAxis)       
         slope, intercept, r_value, p_value, std_err = linregress(xAxis, yAxis)
+        time.sleep(3)
         return(slope)
+        
 
-def findSentiment:
+
+tickers = ["WSI", "C6C", "ECX", "CGF", "FEX", ]
+# "IMA", "GRR", "CVW", "IGL", "BPT", "CAA", "ZIM", "SKT", "YAL", "LAU", "8VI", "SWM", "SDG", "FMG", "AVA", "AMI", "PTL", "SEQ", "CRN", "AQS", "KSC", "NHC", "BYE", "WAF", "CGO", "HZN", "MHJ", "NZM", "PFG", "PRU", "MGL", "S32", "ASX", "RIO", "CIA", "OMH", "BHP", "EVZ", "ALG", "SRG", "BIS", "DDT", "WHC", "ALK", "SLR", "SSR", "CNU", "EZL", "VGL", "SHJ", "SHL", "NIC", "ACF", "AHC", "STO", "VEA", "IKW", "SGLLV", "VLS", "NCM", "GDG", "CAF", "AFL", "CTE", "JHX", "RIC", "COL", "LMG", "MAD", "D2O", "KPG", "ALD", "ABB", "KIL", "LYL", "BXB", "MTS", "OFX", "RKN", "CGS", "ELD", "KOV", "EGL", "DTL", "ABY", "CUE", "LNY"
+# ]
+
+def findReg():
+
+        counterC = 41
+        for item in tickers:
+                write('B2', item)
+                time.sleep(6)
+                
+                if reg(30)>0 or reg(60)>0:
+                        write('C'+str(counterC),item)
+                        print(reg(30), reg(60), item)
+                        counterC = counterC+1
+
+
+findReg()
+                
+
 
 # read('S5')
                        
